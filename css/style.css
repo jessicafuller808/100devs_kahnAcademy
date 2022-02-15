@@ -83,3 +83,17 @@ header nav {
      font-family: "Source Serif Pro", serif;
  }
 
+ main p {
+     color: #21242C;
+     font-size: 1.8em;
+     font-family: 'Lato', sans-serif;
+ }
+
+ button {
+     color: white;
+     background-color: #1865f2;
+     padding: .8em;
+     font-family: 'Lato', sans-serif;
+     font-size: 1.5em;
+     border-radius: .5em;
+ }
