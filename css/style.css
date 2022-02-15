@@ -8,6 +8,9 @@ hmtl {
     font-size: 62.5%;
   }
 
+  /* Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
 /* Clear fix hack */
 .clearfix:after {
     content: ".";
@@ -26,7 +29,7 @@ hmtl {
 /* BASE STYLES
 /*******************************************/
 
-body {
+html {
  font-size: 62.5%;
 
 }
@@ -35,14 +38,11 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
 
-}
-
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+ nav li {
+     color: #1865f2;
+ }
