@@ -72,4 +72,14 @@ header nav {
     color: #1865f2;
  }
 
+ /* Main */
+
+ main img, main section {
+     float: left;
+ }
+
+ h1 {
+     font-size: 5.2rem;
+     font-family: "Source Serif Pro", serif;
+ }
 
