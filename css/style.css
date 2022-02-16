@@ -44,6 +44,10 @@ header {
     height: 5em;
 }
 
+main {
+    margin: 0 auto;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
@@ -58,7 +62,7 @@ header nav {
  nav li {
      color: #1865f2;
      font-family: 'Lato', sans-serif;
-     font-size: 1.5em;
+     font-size: 1.5rem;
      list-style: none;
      float: left;
      width: 16.666%
@@ -74,8 +78,22 @@ header nav {
 
  /* Main */
 
+ img {
+     width: 500px;
+     height: 350px;
+     margin-left: 25rem;
+ }
+
  main img, main section {
      float: left;
+ }
+
+ main div {
+     height: auto;
+ }
+
+ main section {
+     width: 50%;
  }
 
  h1 {
@@ -85,7 +103,7 @@ header nav {
 
  main p {
      color: #21242C;
-     font-size: 1.8em;
+     font-size: 1.8rem;
      font-family: 'Lato', sans-serif;
  }
 
@@ -94,10 +112,10 @@ header nav {
      background-color: #1865f2;
      padding: .8em;
      font-family: 'Lato', sans-serif;
-     font-size: 1.5em;
+     font-size: 1.5rem;
      border-radius: .5em;
  }
  
  main h1, main p, main button {
-     margin-bottom: 25px;
+     margin-bottom: 2em;
  }
